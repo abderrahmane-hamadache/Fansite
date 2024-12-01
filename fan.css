@@ -164,78 +164,29 @@ p {
 
 footer {
   background-color: black;
-  color: #fff;
-  padding: 40px 0;
+  color: blue;
+  padding: 20px;
   text-align: center;
 }
-
-.footer-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.footer-container p {
-  font-size: 1.5em;
-  margin-bottom: 20px;
-}
-
-.footer-container form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-container label {
-  display: block;
-  margin: 10px 0 5px 0;
-  font-size: 1.1em;
-}
-
-.footer-container input[type="text"],
-.footer-container input[type="email"] {
-  width: 100%;
-  max-width: 400px;
+footer input,
+footer textarea {
+  width: 80%;
   padding: 10px;
-  margin: 5px 0 20px 0;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.footer-container input[type="submit"] {
-  background-color: #1e90ff;
-  color: white;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1.1em;
-}
-
-.footer-container input[type="submit"]:hover {
-  background-color: #0b78d1;
-}
-
-.contact-info {
-  margin-top: 20px;
-  text-align: left;
-  text-align: center;
-}
-
-.contact-info p {
   margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
-
-.contact-info a {
-  color: #1e90ff;
-  text-decoration: none;
+footer button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-
-.contact-info a:hover {
-  text-decoration: underline;
+footer button:hover {
+  background-color: #218838;
 }
-
 @media (max-width: 1200px) {
   header {
     padding: 10px 100px;
